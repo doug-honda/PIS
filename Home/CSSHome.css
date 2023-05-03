@@ -1,0 +1,90 @@
+body{
+    background-color: white;
+}
+
+/* Início */
+#borda{
+    border: 1px solid #2D144E;
+    background-color: #2D144E;
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.elementosborda{
+    display: inline;
+    margin: 35px;
+    color: #FFC701;
+    font-family: Poppins;
+    font-size: 20px;
+
+}
+
+a:hover{
+    color: mediumpurple;
+}
+
+#logo{
+    margin-left: 150px;
+    margin-top: -80px;
+}
+
+/* Corpo do Texto */
+#meio{
+    height: 800px;
+    width: 1050px;
+    border: 1px solid;
+}
+#titulomeio{
+    display: flex;
+    justify-content: left;
+    font-family: "Poppins SemiBold";
+    font-size: 50px;
+    color: black;
+}
+#linha{
+    color: #2D144E;
+    background-color: #2D144E;
+    height: 2px;
+    width: auto;
+}
+#quadro1{
+    display: flex;
+    justify-content: left;
+    border: 1px solid ;
+    height: 400px;
+    width: 500px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: Poppins;
+}
+
+/* Fim */
+#fim{
+    border: 1px solid #B2B28B;
+    background-color: #B2B28B;
+    height: 400px;
+    width: auto;
+}
+#parte1fim{
+    margin-left: 150px;
+    margin-top: 130px;
+}
+.letrafim{
+    color: white;
+    font-size: 18px;
+    font-family: "Poppins Thin";
+}
+
+#parte2fim{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 150px;
+    margin-top: -125px;
+    font-family: "Poppins Thin";
+    text-align: right;
+    color: white;
+    font-size: 18px;
+}
