@@ -2,7 +2,6 @@ body{
     background-color: white;
 }
 
-
 /* Início */
 #borda{
     border: 1px solid #2D144E;
@@ -22,133 +21,72 @@ body{
 
 }
 
+h2{
+    margin-bottom: 45px;
+}
+
 a:hover{
     color: mediumpurple;
 }
 
 #logo{
-    display: flex;
-    justify-content: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    margin-left: 150px;
+    margin-top: -80px;
 }
 
-
-
 /* Corpo do Texto */
+
 #meio{
-    height: 2650px;
-    width: 1050px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+    width: 90%;
 }
 
 #meio2{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    width: 90%;
 }
+
 #titulomeio{
     display: flex;
-    justify-content: left;
+    margin-left: 5%;
+    margin-right: 5%;
     font-family: "Poppins SemiBold";
     font-size: 50px;
     color: black;
+    border-bottom: solid;
 }
+
 #linha{
     color: #2D144E;
     background-color: #2D144E;
     height: 2px;
     width: auto;
-    display: flex;
-
 }
 #quadro1{
-    height: 260px;
-    width: 500px;
+    display: block;
+    justify-content: center;
+    align-content: center;
+    height: 400px;
+    width: 400px;
     text-align: justify;
     font-size: 20px;
     font-family: Poppins;
 }
-
 #quadro2{
-    height: 260px;
-    width: 500px;
-    text-align: justify;
-    font-size: 20px;
-    font-family: Poppins;
-}
-
-#quadro3{
-    height: 150px;
-    width: 500px;
-    text-align: justify;
-    font-size: 20px;
-    font-family: Poppins;
-}
-
-#porisso{
-    font-family: "Poppins ExtraBold";
-    font-size: 70px;
-    color: #2D144E;
-}
-
-#porissotext{
-    font-family: "Poppins Medium";
-    font-size: 25px;
-}
-
-.card-body{
-    font-family: Poppins;
-    padding-top: 75px;
-}
-
-.card-body2{
-    font-family: Poppins;
-}
-
-.card-title{
-    font-family: "Poppins Black";
-}
-
-.card-text{
-    text-align: justify;
-}
-
-.card-text2{
-    text-align: center;
-}
-
-.titulo{
-    padding-top: 15px;
-    font-size: 20px;
-}
-
-#integrantes{
-    font-family: "Poppins ExtraBold";
-    font-size: 40px;
-    color: #2D144E;
-}
-
-#firstintegrantes{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    height: 500px;
+    width: 800px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: Poppins;
 }
-#secintegrantes{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.roxinho{
-    color: #60009a;
-}
-
-.amarelinho{
-    color: #FFC701;
-}
-
-.verdinho{
-    color: #299a00;
-}
-
-
 
 /* Fim */
 #fim{
@@ -179,4 +117,24 @@ a:hover{
     font-size: 18px;
 }
 
+#imagemrelatos{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
+.botao{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    border-radius: 20px;
+    padding: 10px 100px;
+    margin-top: -24px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #FFC701;
+    color: black;
+    justify-content: space-around;
+}
